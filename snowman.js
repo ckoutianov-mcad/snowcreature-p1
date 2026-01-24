@@ -47,7 +47,7 @@ function draw() {
     //left arm
     stroke(0);
     strokeWeight(10);
-    line(100, 100, 40, 40);
+    line(300, 300, 380, 380);
     //right arm
     noFill();
     stroke(0);
