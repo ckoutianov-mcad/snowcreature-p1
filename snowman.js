@@ -1,4 +1,6 @@
 let grid = undefined;
+let stroke1 = prompt("Choose a basic color name (lowercase letters)." , "blue");
+let stroke2 = prompt("Choose another basic color name (lowercase letters).", "orange");
 function setup() {
     createCanvas(1000, 800);
     background("#587291");
@@ -9,7 +11,7 @@ function draw() {
     //legs
     fill("#1ccad8");
     strokeWeight(15);
-    stroke("#2f97c1");
+    stroke(stroke1);
     //left leg (x from the left, y from the bottom, width, optional height)
     ellipse(350, 600, 200);
     //right leg
@@ -19,7 +21,7 @@ function draw() {
     //head
     ellipse(500, 200, 200);
     //hat brim
-    stroke("#1E134F");
+    stroke(stroke2);
     strokeWeight(25);
     line(400, 120, 600, 120);
     //hat body 
