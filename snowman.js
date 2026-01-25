@@ -4,7 +4,7 @@ let stroke2 = prompt("Choose another basic color name (lowercase letters).", "or
 function setup() {
     createCanvas(1000, 800);
     background("#587291");
-    grid = loadImage("../img/100px_grid.png");
+    grid = loadImage("");
 }
 function draw() {
     background(grid);
