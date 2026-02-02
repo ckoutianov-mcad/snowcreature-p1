@@ -1,1 +1,1 @@
-### Snow Creature assignment for Programming for the Web course (Part I).
+## Snow Creature assignment for Programming for the Web course (Part I).
